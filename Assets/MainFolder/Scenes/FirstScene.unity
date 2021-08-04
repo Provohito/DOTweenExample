@@ -214,6 +214,7 @@ GameObject:
   - component: {fileID: 439546218}
   - component: {fileID: 439546217}
   - component: {fileID: 439546216}
+  - component: {fileID: 439546215}
   m_Layer: 0
   m_Name: Folowed
   m_TagString: Untagged
@@ -235,6 +236,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &439546215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439546213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc734bc54dec8f47820a890469c08ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wayPoints:
+  - {x: 4, y: 4, z: 7}
+  - {x: 9, y: 4, z: 10}
+  - {x: 4, y: 2, z: 6}
+  - {x: 0, y: 5, z: 4}
+  - {x: -3, y: -1, z: 0}
 --- !u!65 &439546216
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -716,7 +735,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &1312024188
 BoxCollider:
   m_ObjectHideFlags: 0
